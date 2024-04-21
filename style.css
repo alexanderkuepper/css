@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.parent {
+    height: 100vh;
+    overflow-y: auto;
+    transform-style: preserve-3d;
+    perspective: 1px;
+  }
+  
+  .bg {
+    position: absolute;
+    transform: translateZ(0px) scale(1.5);
+  }
+
+  .moon {
+    position: absolute;
+    transform: translateZ(-1px) scale(2.15);
+  }
+  .mountain {
+    position: absolute;
+    transform: translateZ(-2px) scale(4.15);
+  }
+  .road {
+    position: absolute;
+    transform: translateZ(-3px) scale(5.15);
+  }
+
+  body {
+    height: 100vh;
+    overflow-y: auto;
+    transform-style: preserve-3d;
+    perspective: 1px;
+  }
